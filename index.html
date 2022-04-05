@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Portfolio Slide</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- FONT AWESOME CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- ANIMATE STYLE -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- MY CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="">
+    <div class="container container__header">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <!-- logo -->
+        <a class="navbar-brand" href="#">
+          <i class="fa fa-dice-d20"></i>
+          <span>CyberPortfolio</span>
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Service <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- CAROUSEL -->
+  <section class="myCarousel">
+    <div id="carouselPort" class="carousel slide carousel-fade" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselPort" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselPort" data-slide-to="1"></li>
+        <li data-target="#carouselPort" data-slide-to="2"></li>
+      </ol>
+
+      <!-- carousel detail -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="overlay"></div>
+          <img src="./image/finland.jpg" class="d-block w-100">
+          <div class="carousel-caption container">
+            <div class="carousel__thumb">
+              <img class="animate__animated animate__fadeInUp" src="./image/01-3.jpg" alt="">
+            </div>
+            <h5 class="animate__animated animate__fadeInUp animate__delay-1s">Our goals. Our mission</h5>
+            <p class="animate__animated animate__fadeInUp animate__delay-1s">How we help other companies to grow</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="overlay"></div>
+          <img src="./image/mountains.jpg" class="d-block w-100">
+          <div class="carousel-caption container">
+            <div class="carousel__thumb">
+              <img class="animate__animated animate__fadeInUp" src="./image/02-3.jpg" alt="">
+            </div>
+            <h5 class="animate__animated animate__fadeInUp animate__delay-1s">Our goals. Our mission</h5>
+            <p class="animate__animated animate__fadeInUp animate__delay-1s">How we help other companies to grow</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="overlay"></div>
+          <img src="./image/mountains-1.jpg" class="d-block w-100">
+          <div class="carousel-caption container">
+            <div class="carousel__thumb">
+              <img class="animate__animated animate__fadeInUp" src="./image/03-3.jpg" alt="">
+            </div>
+            <h5 class="animate__animated animate__fadeInUp animate__delay-1s">Our goals, our mission</h5>
+            <p class="animate__animated animate__fadeInUp animate__delay-1s">How we help other companies to grow</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselPort" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselPort" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+
+  <!-- PROJECTS -->
+  <section class="projects py-5">
+    <div class="container py-5">
+      <div class="heading text-center mx-auto mx-5">
+        <h1>I love what I do</h1>
+        <p class="my-3 mx-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sint iusto labore? Illum
+          et
+          quasi, adipisci quam voluptatum minima velit dicta optio, assumenda fugit pariatur tempore eius deserunt odio
+          reiciendis tenetur eveniet expedita eligendi omnis beatae a quis magni. Commodi.</p>
+      </div>
+      <div class="project__content container pt-3">
+        <ul class="nav nav-pills justify-content-center" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <a class="nav-link active" id="pills-tab1" data-toggle="pill" href="#pills-all" role="tab"
+              aria-controls="pills-home" aria-selected="true">
+              All projects
+            </a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" id="pills-tab2" data-toggle="pill" href="#pills-illu" role="tab"
+              aria-controls="pills-illu" aria-selected="false">
+              Illustraton
+            </a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" id="pills-tab3" data-toggle="pill" href="#pills-photo" role="tab"
+              aria-controls="pills-photo" aria-selected="false">
+              Photography
+            </a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" id="pills-tab4" data-toggle="pill" href="#pills-web" role="tab"
+              aria-controls="pills-contact" aria-selected="false">
+              Website
+            </a>
+          </li>
+        </ul>
+        <div class="tab-content" id="projectTabs">
+          <!-- tab-pane 1 -->
+          <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="row">
+              <div class="col-4">
+                <div class="card projects__item">
+                  <img class="card-img-top" src="./image/g1.jpg">
+                  <div class="card-body text-center">
+                    <h3 class="h5">Apologetic robot holding flowers</h3>
+                    <p>Branding</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-4">
+                <div class="card projects__item">
+                  <img class="card-img-top" src="./image/g2.jpg">
+                  <div class="card-body text-center">
+                    <h3 class="h5">Woman walking her small dog</h3>
+                    <p>Illustration</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-4">
+                <div class="card projects__item">
+                  <img class="card-img-top" src="./image/g3.jpg">
+                  <div class="card-body text-center">
+                    <h3 class="h5">Oil bottle branding</h3>
+                    <p>Branding</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-4">
+                <div class="card projects__item">
+                  <img class="card-img-top" src="./image/g4.jpg">
+                  <div class="card-body text-center">
+                    <h3 class="h5">Smiling Woman</h3>
+                    <p>Illustration</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-4">
+                <div class="card projects__item">
+                  <img class="card-img-top" src="./image/g5.jpg">
+                  <div class="card-body text-center">
+                    <h3 class="h5">Drink can design</h3>
+                    <p>Packaging</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-4">
+                <div class="card projects__item">
+                  <img class="card-img-top" src="./image/g6.jpg">
+                  <div class="card-body text-center">
+                    <h3 class="h5">I love your hand gesture</h3>
+                    <p>Illustration</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- tabpane 2 -->
+          <div class="tab-pane fade" id="pills-illu" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <div class="row">
+              <div class="col-4">
+                <div class="card projects__item">
+                  <img class="card-img-top" src="./image/g1.jpg">
+                  <div class="card-body text-center">
+                    <h3 class="h5">Oil bottle branding</h3>
+                    <p>Branding</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-4">
+                <div class="card projects__item">
+                  <img class="card-img-top" src="./image/g2.jpg">
+                  <div class="card-body text-center">
+                    <h3 class="h5">Smiling Woman</h3>
+                    <p>Illustration</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-4">
+                <div class="card projects__item">
+                  <img class="card-img-top" src="./image/g3.jpg">
+                  <div class="card-body text-center">
+                    <h3 class="h5">Smiling Woman</h3>
+                    <p>Illustration</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- tab-pane 3 -->
+          <div class="tab-pane fade" id="pills-photo" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <div class="row">
+              <div class="col-4">
+                <div class="card projects__item">
+                  <img class="card-img-top" src="./image/g3.jpg">
+                  <div class="card-body text-center">
+                    <h3 class="h5">Smiling Woman</h3>
+                    <p>Illustration</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-4">
+                <div class="card projects__item">
+                  <img class="card-img-top" src="./image/g4.jpg">
+                  <div class="card-body text-center">
+                    <h3 class="h5">Smiling Woman</h3>
+                    <p>Illustration</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- tab-pane 4 -->
+          <div class="tab-pane fade" id="pills-web" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <div class="row">
+              <div class="col-4">
+                <div class="card projects__item">
+                  <img class="card-img-top" src="./image/g6.jpg">
+                  <div class="card-body text-center">
+                    <h3 class="h5">Smiling Woman</h3>
+                    <p>Illustration</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="feature">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="heading text-center mx-auto">
+        <h2 class="text-white">I'm Available For Hire</h2>
+        <p class="my-3 text-white">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+          Curae; Nulla mollis dapibus nunc, ut
+          rhoncus turpis sodales quis. Integer sit amet mattis quam.</p>
+      </div>
+      <div class="feature__content text-center mt-5 pt-3">
+        <div class="row">
+          <div class="col-4">
+            <div class="feature__item">
+              <i class="fa fa-paint-brush"></i>
+              <h4>Design</h4>
+              <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis
+                dapibus nunc</p>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="feature__item">
+              <i class="fa fa-shekel-sign"></i>
+              <h4>Marketing</h4>
+              <p>vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis
+                dapibus nunc</p>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="feature__item">
+              <i class="fa fa-camera"></i>
+              <h4>Photography</h4>
+              <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis
+                dapibus nunc</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- AWARD -->
+  <section class="award">
+    <div class="award__bg"></div>
+    <div class="award__lg">
+      <div class="row">
+        <div class="col-5 ml-5">
+          <div class="award__left heading">
+            <h2>Our Achievement and Award</h2>
+            <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+              ullamcorper mattis,
+              pulvinar dapibus
+              leo.</p>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="award__right">
+            <p>Luctus porta semper aptent morbi. Vestibulum lectus tempus augue dictumst enim commodo facilisis. Mus
+              laoreet
+              scelerisque habitant urna dui sem diam. Purus dis nam eget. Scelerisque placerat lectus lorem etiam.
+              Elementum integer
+              phasellus lectus.</p>
+            <div class="row">
+              <div class="col">
+                <img class="img-fluid" src="./image/award-1.png" alt="">
+              </div>
+              <div class="col">
+                <img src="./image/award-2.png" class="img-fluid" alt="">
+              </div>
+              <div class="col">
+                <img src="./image/award-3.png" class="imgfluid" alt="">
+              </div>
+              <div class="col">
+                <img src="./image/award-4.png" class="img-fluid" alt="">
+              </div>
+              <div class="col">
+                <img src="./image/award-5.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-5">
+    <div class="container text-center text-white">
+      <div class="footer__main">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <div class="footer__copies">
+        <p>© 2021 CyberPortfolio. All rights reserved | Designed by <a href="#">CyberSoft</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <!-- MY JS -->
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
